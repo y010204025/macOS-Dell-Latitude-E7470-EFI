@@ -1,0 +1,1 @@
+# macOS-Dell-Latitude-E7470-EFI
