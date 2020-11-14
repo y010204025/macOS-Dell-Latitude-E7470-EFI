@@ -1,0 +1,42 @@
+
+Clover EFI installer log - Fri Apr 17 09:09:06 PDT 2020
+Installer version: v2.5k r5103 EFI bootloader
+======================================================
+/dev/disk0 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *15.5 GB    disk0
+   1:                 DOS_FAT_16 EFI                     208.7 MB   disk0s1
+   2:                  Apple_HFS SOWA                    15.3 GB    disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *512.1 GB   disk1
+   1:       Microsoft Basic Data EFI                     658.5 MB   disk1s1
+   2:         Microsoft Reserved                         16.8 MB    disk1s2
+   3:       Microsoft Basic Data                         196.9 GB   disk1s3
+   4:                 Apple_APFS Container disk2         314.6 GB   disk1s4
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +314.6 GB   disk2
+                                 Physical Store disk1s4
+   1:                APFS Volume MacOS Catalina — дані   5.0 GB     disk2s1
+   2:                APFS Volume Preboot                 86.2 MB    disk2s2
+   3:                APFS Volume Recovery                718.5 MB   disk2s3
+   4:                APFS Volume VM                      2.1 GB     disk2s4
+   5:                APFS Volume MacOS Catalina          11.0 GB    disk2s5
+
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/EFI 1
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/EFI 1
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'random'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
